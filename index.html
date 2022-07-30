@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <h1>Tic Tac Toe</h1>
+        </header>
+        <main>
+            <section class="game-grid">
+                <div class="g-box"></div>
+                <div class="g-box"></div>
+                <div class="g-box"></div>
+                <div class="g-box"></div>
+                <div class="g-box"></div>
+                <div class="g-box"></div>
+                <div class="g-box"></div>
+                <div class="g-box"></div>
+                <div class="g-box"></div>
+            </section>
+            <section class="winner-section">
+                <h2>Winner is <span class="winner"></span></h2>
+                <button onclick="continueGame()">Continue</button>
+            </section>
+            <section class="game-draw-section">
+                <h2>Draw Match</h2>
+                <button onclick="continueGame()">Continue</button>
+            </section>
+        </main>
+        <footer>
+            <p>May be it is containing some bugs.</p>
+        </footer>
+    </div>
+    <!-- Include JS file -->
+    <script src="./index.js"></script>
+</body>
+</html>
